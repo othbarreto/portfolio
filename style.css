@@ -95,3 +95,27 @@ img {
   text-align: right;
   padding-right: 100px;
 }
+
+.nome-empresa {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.informacoes-emprego {
+  padding-left: 30px;
+}
+
+.cargo-informacoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cargo-informacoes p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.funcoes p {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
