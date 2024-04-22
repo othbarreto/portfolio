@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Manrope:wght@200..800&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -14,8 +16,8 @@ body {
 h1,
 h2,
 a,
-p {
-  padding: 0;
+p,
+li {
   margin: 0;
 }
 
@@ -35,7 +37,7 @@ p {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 24px 0;
+  margin-top: 1.5rem;
   align-items: center;
 }
 
@@ -111,7 +113,7 @@ li {
 
 .experiencia-conteudo h1,
 p {
-  font-family: "manrope";
+  font-family: "manrope", sans-serif;
 }
 
 .experiencias-titulo h1 {
@@ -120,4 +122,66 @@ p {
   text-align: right;
   font-weight: 400;
   word-break: break-word;
+}
+
+.cargo-tempo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.funcoes {
+  display: grid;
+  margin-left: 1.5rem;
+}
+
+.funcoes a {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-family: "Manrope", sans-serif;
+}
+
+.projeto {
+  width: 400px;
+  margin-top: 2rem;
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+
+.projeto img {
+  width: 100%;
+}
+
+.projetos-conteudo {
+  grid-column: 1 / -1;
+}
+
+.projetos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.titulo-principal h2 {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.projeto h2,
+.projeto p {
+  text-align: center;
+}
+
+.titulo-projeto h2 {
+  font-size: 1.5rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+.tecnologias p,
+.titulo-projeto p {
+  font-size: 1.2rem;
+}
+
+.tecnologias {
+  display: flex;
+  justify-content: space-between;
 }
