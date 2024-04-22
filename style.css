@@ -106,7 +106,7 @@ li {
 }
 
 .foto-pessoal {
-  justify-self: right;
+  justify-self: left;
 }
 
 .experiencia-conteudo h1,
@@ -115,7 +115,9 @@ p {
 }
 
 .experiencias-titulo h1 {
+  width: 31.25rem;
   font-size: 10rem;
   text-align: right;
-  font-weight: 600;
+  font-weight: 400;
+  word-break: break-word;
 }
