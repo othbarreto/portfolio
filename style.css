@@ -110,7 +110,6 @@ li {
 .foto-pessoal {
   justify-self: left;
 }
-
 .experiencia-conteudo h1,
 p {
   font-family: "manrope", sans-serif;
@@ -141,10 +140,16 @@ p {
 }
 
 .projeto {
-  width: 400px;
+  width: 25rem;
   margin-top: 2rem;
   background-color: #1a1a1a;
-  padding: 20px;
+  padding: 1.5rem;
+  border: 0.01rem solid transparent;
+  border-radius: 0.6rem;
+}
+
+.projeto:hover {
+  border-color: #d3e97a;
 }
 
 .projeto img {
