@@ -185,11 +185,6 @@ p {
   font-size: 1.2rem;
 }
 
-.tecnologias {
-  display: flex;
-  justify-content: space-between;
-}
-
 .contato {
   margin-top: 10rem;
 }
