@@ -140,6 +140,10 @@ p {
 }
 
 .projeto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   width: 25rem;
   margin-top: 2rem;
   background-color: #1a1a1a;
@@ -176,13 +180,29 @@ p {
   text-align: center;
 }
 
-.titulo-projeto h2 {
+.titulo-projeto h2,
+.acesso-projeto a {
   font-size: 1.5rem;
   font-family: "Manrope", sans-serif;
 }
 .tecnologias p,
 .titulo-projeto p {
   font-size: 1.2rem;
+}
+
+.acesso-projeto {
+  width: 120px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #d3e97a;
+  margin-top: 20px;
+}
+
+.acesso-projeto a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .contato {
