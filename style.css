@@ -79,7 +79,7 @@ li {
 }
 
 .conteudo {
-  width: 1231px;
+  width: 76.93rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
@@ -201,7 +201,7 @@ p {
 .acesso-projeto a {
   text-decoration: none;
   color: #fff;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -221,5 +221,16 @@ p {
 footer p {
   margin-top: 1rem;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+  .conteudo {
+    grid-template-columns: 1fr;
+    width: 600px;
+    gap: 2rem;
+  }
+  .experiencias-titulo h1 {
+    width: 100%;
+  }
 }
